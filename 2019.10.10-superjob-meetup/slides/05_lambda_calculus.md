@@ -18,15 +18,16 @@ const id = (x) => x;
 1. $\lambda x.u$ – функции <!-- .element: class="fragment" -->
 1. $(uv)$ – применение <!-- .element: class="fragment" -->
 
-### Правила <!-- .element: class="fragment" -->
+---
+
+### Правила
 
 1. $\lambda x.x \to_\alpha \lambda y.y$ – конверсия <!-- .element: class="fragment" -->
 1. $(\lambda x.x)(u) \to_\beta u$ – редукция<!-- .element: class="fragment" -->
 
 ---
 
-
-### Есть $x \sin$ и $\sin x$ термы 😧
+### $(uv)$ → $x \sin$ и $\sin x$ 😧
 
 ```js
 const x = 3.14;

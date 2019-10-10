@@ -9,7 +9,7 @@
 const foo = 'hello'; // implicit
 const bar = 42;
 
-const baz = foo + bar; // week
+const baz = foo + bar; // weak
 
 baz() // dynamic
 ```
