@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>История типов и типизация на фронтенде</title>
+
+		<link rel="stylesheet" href="reveal.js/css/reset.css">
+		<link rel="stylesheet" href="reveal.js/css/reveal.css">
+		<link rel="stylesheet" href="reveal.js/css/theme/white.css">
+		<link rel="stylesheet" href="reveal.js/css/overwrite.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="reveal.js/lib/css/monokai.css">
+
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<img src="slides/img/logo_green.svg" style="border: none; box-shadow: none; width: 45%;">
+					<h3 style="color: #01aa87">JavaScript Meetup</h3>
+				</section>
+
+				<section data-markdown="slides/01_title.md"></section>
+				<section data-markdown="slides/02_topic.md"></section>
+				<section data-markdown="slides/03_plan.md"></section>
+				<section data-markdown="slides/04_russels_paradox.md"></section>
+				<section data-markdown="slides/05_lambda_calculus.md"></section>
+				<section data-markdown="slides/06_simply_typed_lambda_calculus.md"></section>
+				<section data-markdown="slides/07_system_f.md"></section>
+				<section data-markdown="slides/08_lambda_cube.md"></section>
+				<section data-markdown="slides/09_javascript.md"></section>
+				<section data-markdown="slides/10_closure_compiler.md"></section>
+				<section data-markdown="slides/11_typescript.md"></section>
+				<section data-markdown="slides/12_flow.md"></section>
+				<section data-markdown="slides/13_flow_vs_typescript.md"></section>
+				<section data-markdown="slides/14_flow_example.md"></section>
+				<section data-markdown="slides/15_conclusion.md"></section>
+				<section data-markdown="slides/16_links.md" style="font-size: .7em;"></section>
+
+				<section>
+					<img src="slides/img/logo_green.svg" style="border: none; box-shadow: none; width: 45%;">
+				</section>
+			</div>
+		</div>
+
+		<script src="reveal.js/js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				hash: true,
+				slideNumber: true,
+				dependencies: [
+					{ src: 'reveal.js/plugin/math/math.js' },
+					{ src: 'reveal.js/plugin/markdown/marked.js' },
+					{ src: 'reveal.js/plugin/markdown/markdown.js' },
+					{ src: 'reveal.js/plugin/notes/notes.js', async: true },
+					{ src: 'reveal.js/plugin/highlight/highlight.js', async: true },
+				],
+				math: {
+					mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js',
+					config: 'TeX-AMS_HTML-full',  // See http://docs.mathjax.org/en/latest/config-files.html
+				},
+			});
+		</script>
+	</body>
+</html>
